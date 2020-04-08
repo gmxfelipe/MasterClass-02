@@ -1,0 +1,22 @@
+{
+  "name": "queuenode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bull": "^3.13.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "sucrase": "^3.13.0"
+  }
+}
