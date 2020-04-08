@@ -1,0 +1,6 @@
+import 'dotenv/config';
+
+import Queue from './app/lib/Queue';
+import RegistrationMail from './app/jobs/ResgistrationMail';
+
+Queue.process();

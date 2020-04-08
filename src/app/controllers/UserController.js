@@ -1,4 +1,4 @@
-import Mail from '../lib/Mail';
+import Queue from '../lib/Queue';
 
 export default {
     async Store(req, res) {
@@ -11,7 +11,11 @@ export default {
         };
 
         // Adicionar job ResgistrationMail na fila
-        
+        await Queue.add('RegistrationMail', { user });
+
+        await Queue.add('UseReport', { user });
+
+
         return res.json(user);
     }
 };
