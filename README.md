@@ -10,7 +10,7 @@
 </p>
 
 
- <p> Nessa aplicação foi desenvolvida para  entender sobre trabalhos em segundo plano com Node.js utilizando uma biblioteca fantástica chamada Bull que nos permite não só executar background tasks mas também monitorar falhas, realizar retentativas, adicionar prioridades e tudo isso de uma forma extremamente simples e performática.</p> 
+ <p> Essa aplicação foi desenvolvida para  entender sobre trabalhos em segundo plano com Node.js utilizando uma biblioteca fantástica chamada Bull que nos permite não só executar background tasks mas também monitorar falhas, realizar retentativas, adicionar prioridades e tudo isso de uma forma extremamente simples e performática.</p> 
  
 <P> As tecnologias usadas para o desenvolvimento desse projeto foram:</p>
 
